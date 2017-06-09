@@ -9,18 +9,19 @@
                 "description": "VNet name"
             }
         },
-        "vnetAddressPrefix": {
-            "type": "string",
-            "defaultValue": "192.168.11.0/24",
-            "metadata": {
-                "description": "Address prefix"
-            }
-        },
+        
         "subnet1Prefix": {
             "type": "string",
             "defaultValue": "192.168.11.0/25",
             "metadata": {
                 "description": "Subnet 1 Prefix"
+            }
+        },
+		"vnetAddressPrefix": {
+            "type": "string",
+            "defaultValue": "192.168.11.0/24",
+            "metadata": {
+                "description": "Address prefix"
             }
         },
         "subnet1Name": {
